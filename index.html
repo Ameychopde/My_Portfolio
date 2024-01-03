@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Amey: A Portfolio Showcase</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a08ec641d5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+
+            <div class="header-text">
+                <p>Hello there! I'm Amey Chopde, a B.Tech IT student !!</p>
+                <h1>Welcome to <span>Amey</span> Chopde's Portfolio</h1>
+
+
+            </div>
+        </div>
+
+    </div>
+    
+   
+    <!-- ABOUT SECTION -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profleImg.jpg">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I'm Amey Chopde, a tech enthusiast with a solid foundation in object-oriented programming,
+                        Java, data structures, and algorithms. My expertise extends to various languages including Java,
+                        Python, SQL, HTML/CSS, and JavaScript. Proficient in developer tools such as Git, GitHub, and
+                        experienced in decentralized application development on the Ethereum blockchain. My skills span
+                        across application development, web development, and blockchain technologies, allowing me to
+                        navigate and contribute effectively in diverse technological landscapes.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link  " onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span> - <br> Java , Python , SQL , HTML / CSS , JavaScript</li>
+                            <li><span>Developer Tools</span> - <br> Git , GitHub , Decentralized application , Ethereum
+                            </li>
+                            <li><span>Technologies</span> - <br>Application Development , Web Development ,Blockchain
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>IMPECCABLE INDIA - A social App</span> - <br> A versatile app covering news,
+                                technology, politics, and more. Engage with interactive content, share opinions, and
+                                experience a holistic view of India's diverse aspects and interests.</li>
+                            <li><span>ITCoin_TheCryptocurrency</span> - <br>A blockchain cryptocurrency for secure and
+                                decentralized digital transactions, featuring mining capabilities. Innovating modern
+                                finance through blockchain technology.
+                            </li>
+                            <li><span>VIDEO REGENERATION USING IMAGE DIFFUSION MODEL</span> - <br>Our innovative project
+                                combines image diffusion and frame interpolation for high-quality video enhancement.
+                                Advancing technology to redefine visual effects and push the boundaries of creative
+                                possibilities
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+
+                            <li><span>2020 - 2024</span> <br> VISHWAKARMA INSTITUTE OF TECHNOLOGY, PUNE - B-Tech in
+                                <span>Information Technology</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Servies -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-creative-commons-remix"></i>
+                    <h2>Web Design</h2>
+                    <p>Let's boost your brand together! As a freelancer, I craft visually stunning and user-friendly
+                        websites to help you stand out. Ready to start your online journey with a unique and engaging
+                        website? Let's chat</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+
+                    <h2>App Design</h2>
+                    <p>Elevate your app experience! As a freelancer, I specialize in crafting visually captivating and
+                        user-friendly mobile applications. Let's work together to bring your app vision to life,
+                        ensuring it stands out in the digital landscape. Ready to enhance your user journey? Let's
+                        create something amazing!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>FullStack</h2>
+                    <p>Level up your online presence with my full-stack expertise! As a freelancer, I specialize in
+                        crafting visually appealing and user-friendly websites from front to back. Let's collaborate to
+                        bring your unique vision to life and enhance your digital footprint</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/mywork_1.jpg">
+                    <div class="layer">
+                        <h3>IMPECCABLE INDIA - A social App</h3>
+                        <p>The "Impeccable India" app is a platform for sharing news and information, where people can
+                            interact and share their opinions on specific topics. It covers a wide range of subjects
+                            including news, technical news, new innovations, political events, history, mystery, and
+                            more about the country.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/mywork_2.webp">
+                    <div class="layer">
+                        <h3>ITCoin_TheCryptocurrency</h3>
+                        <p>
+                            ITCoin_TheCryptocurrency is a blockchain-based cryptocurrency project. It allows users to
+                            mine blocks and make transactions using the cryptocurrency. The project aims to provide a
+                            secure and decentralized way for users to transfer value and assets digitally.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/mywork_3.jpeg">
+                    <div class="layer">
+                        <h3>COVID-19-RADIOGRAPHY-USING-MULTIPROTOTYPE-FUZZY-LOGIC
+                        </h3>
+                        <p>
+
+                            Using Multi-Prototype Fuzzy Logic, classify chest X-rays into COVID-19, Viral Pneumonia, or
+                            Normal. Train the algorithm on labeled data, evaluate performance metrics, and ensure
+                            clinical validation for real-world use.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- contact form  -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>amey.chopde27@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/amey-chopde-624556211/" target="_blank"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Ameychopde" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+                    </div>
+
+                    <a href="images/Amey_chopde_CV.pdf" download="Amey_chopde_CV" class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © Amey Chopade | Designed by Amey Chopade</p>
+
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+    <script>
+        // remove the response form console
+        
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxAw8C8sX7az2IkuLVdectaYwPMwE3hlkDdHFXih_xwioZ_4hkOKZhoQ3AwA9ypUhJC/exec'
+        const form = document.forms['submit-to-google-sheet']
+        // display a tost message after submisssion
+        form.addEventListener('submit', (e) => {
+            e.preventDefault()
+            alert("Form Submitted Successfully!")
+            })
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+                
+                // Toastify({
+                //     text: "Message Sent Successfully",
+                //     duration: 3000,
+                //     close: true,
+                //     gravity: "top",
+                //     position: "left",
+                //     backgroundColor: "#f1f8e9",
+                //     }).showToast();
+
+        })
+        document.querySelector(".response").style.display = "none";
+    </script>
+</body>
+
+</html>
